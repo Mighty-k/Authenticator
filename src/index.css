@@ -1,0 +1,99 @@
+*{
+  margin: none;
+  box-sizing: border-box;
+  transition:1s;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  margin-top: 5%;
+  background: rgb(167,195,124);
+  background: linear-gradient(90deg, rgba(167,195,124,1) 0%, rgba(80,207,76,1) 30%, rgba(48,219,143,1) 85%, rgba(53,179,120,1) 100%);
+}
+
+.form-label{
+  text-align: left;
+  color: rgb(23, 83, 52);
+}
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.register-signup{
+  margin-top: 11%;
+  margin-bottom: 7%;
+}
+.first-col-sign{
+  background-image: url(./img/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 0 0 10px;
+  background-blend-mode: luminosity;
+  border: 0.5px solid rgba(14, 107, 14, 0.562);
+  
+}
+.first-col-sign h2{
+  margin-top: 50%;
+  color: white;
+  font-size: 40px;
+  
+}
+.first-col-sign:hover{
+  box-shadow: 5px 4px 39px -11px rgba(83,176,75,0.81);
+}
+.register{
+  border: 0.5px solid rgba(14, 107, 14, 0.562);
+  border-radius: 0 10px 10px 0 ;
+  
+  padding: 3%;
+  background-color: rgba(142, 255, 127, 0.205);
+  line-height: 40px;
+}
+
+.register:hover{
+  box-shadow: 5px 4px 39px -11px rgba(83,176,75,0.81);
+}
+
+.btn-signup{
+  margin-top: 3%;
+}
+.btn-signup button{
+  width: 45%;
+}
+.btn-right{
+  transition: 0.3s;
+  transform: translateX(100%);
+}
+/* .btn-right:hover{
+  padding-right: 50%;
+} */ 
+.stop{
+  transition: 0.3s;
+}
